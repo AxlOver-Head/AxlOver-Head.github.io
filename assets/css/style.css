@@ -1,11 +1,3 @@
-p {
-    color : green
-}
-
-.special {
-    color : rebeccapurple
-}
-
 /*
 crt code was taken from source
 https://aleclownes.com/2017/02/01/crt-display.html
@@ -172,8 +164,8 @@ https://aleclownes.com/2017/02/01/crt-display.html
     }
 }
 .crt {               /* Optional: Keeps image fixed during scroll */
-    background-color: rgb(9, 55, 3);
     animation: textShadow 1.6s infinite;
+    display: inline-block;
 }
 
 .fixed-on-top {
@@ -194,7 +186,7 @@ https://aleclownes.com/2017/02/01/crt-display.html
     object-fit: fill;
     display: block;
     box-sizing: border-box;
-    z-index: 100;
+    z-index: -1;
 }
 
 html, body {
@@ -202,4 +194,14 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+}
+
+.text-all {
+    margin: 60px;
+    color :rgb(30, 255, 0);
+    z-index: 2;
+}
+
+.green_background {
+    background-color: rgb(5, 27, 2);
 }
