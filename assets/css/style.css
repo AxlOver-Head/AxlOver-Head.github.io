@@ -168,7 +168,7 @@ https://aleclownes.com/2017/02/01/crt-display.html
     display: inline-block;
 }
 
-.fixed-on-top {
+.retro_bezel {
     position: fixed ;
     top: 0;
     left: 0 ;
@@ -196,8 +196,10 @@ html, body {
     height: 100%;
 }
 
-.text-all {
-    margin: 10%;
+.text_all {
+    width: 80vw;
+    height: 60vh;
+    margin: 13%;
     color :rgb(30, 255, 0);
     z-index: 2;
     font-family: "retro_computer", sans-serif;
