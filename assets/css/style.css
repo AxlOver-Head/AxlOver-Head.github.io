@@ -197,11 +197,22 @@ html, body {
 }
 
 .text-all {
-    margin: 60px;
+    margin: 10%;
     color :rgb(30, 255, 0);
     z-index: 2;
+    font-family: "retro_computer", sans-serif;
 }
 
 .green_background {
     background-color: rgb(5, 27, 2);
+}
+
+/*
+font gotten from here 
+https://www.dafont.com/retro-computer.font
+*/
+
+@font-face {
+    font-family: "retro_computer";
+    src: url("../fonts/retro_computer_personal_use.ttf");
 }
