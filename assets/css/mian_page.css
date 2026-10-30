@@ -205,6 +205,22 @@ html, body {
     font-family: "retro_computer", sans-serif;
 }
 
+.blinking_curser {
+    border-right: 7px;
+    border-right-style: solid;
+    border-right-color: rgb(30, 255, 0);
+    animation: blinking_curser_animation 1s steps(1) infinite;
+}
+
+@keyframes blinking_curser_animation {
+    0%{
+    opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
 .green_background {
     background-color: rgb(5, 27, 2);
 }
@@ -218,3 +234,5 @@ https://www.dafont.com/retro-computer.font
     font-family: "retro_computer";
     src: url("../fonts/retro_computer_personal_use.ttf");
 }
+
+
