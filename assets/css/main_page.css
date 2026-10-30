@@ -236,3 +236,8 @@ https://www.dafont.com/retro-computer.font
 }
 
 
+.footer {
+    font-size: 10px;
+    position: fixed;
+    bottom: 10vh;
+}
